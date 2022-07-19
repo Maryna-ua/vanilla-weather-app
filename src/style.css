@@ -1,2 +1,55 @@
-.container {
+body {
+  font-family: Arial, sans-serif;
+  color: rgb(159, 157, 157);
+}
+
+.wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.weather-app {
+  padding: 20px;
+  border: 1px solid rgb(195, 195, 195);
+  border-radius: 6px;
+}
+.heading {
+  margin-bottom: 20px;
+}
+
+li {
+  line-height: 19px;
+  list-style: none;
+}
+
+h1,
+.temp {
+  color: rgb(56, 54, 54);
+  line-height: 1;
+  font-weight: 100;
+}
+h1 {
+  margin-bottom: 0;
+  font-size: 32px;
+  line-height: 1;
+}
+.temp {
+  font-size: 64px;
+}
+.time {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  position: relative;
+  top: -17px;
+  margin-right: 10px;
+  width: 70px;
+}
+
+.units {
+  position: relative;
+  top: -30px;
+  font-size: 20px;
 }

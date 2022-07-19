@@ -16,31 +16,41 @@
   </head>
   <body>
     <div class="container">
-      <div class="weather-app">
-        <h1>Kyiv, UA</h1>
-        <ul>
-          <li>Tue 15:30</li>
-          <li>Rain</li>
-        </ul>
-        <div class="row">
-          <div class="col-6">🌧 20 °C | °F</div>
-          <div class="col-6">
-            <ul>
-              <li>Precipitation: 90%</li>
-              <li>Humidity: 75%</li>
-              <li>Wind: 16 km/h</li>
+      <div class="wrapper">
+        <div class="weather-app">
+          <div class="heading">
+            <h1>Kyiv, UA</h1>
+            <ul class="time">
+              <li>Tue 15:30</li>
+              <li>Rain</li>
             </ul>
           </div>
+          <div class="row">
+            <div class="col-6">
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+                alt="sunny"
+              />
+              <span class="temp">20<span class="units">°C | °F</span></span>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li>Precipitation: 90%</li>
+                <li>Humidity: 75%</li>
+                <li>Wind: 16 km/h</li>
+              </ul>
+            </div>
+          </div>
         </div>
+        <small>
+          <a
+            href="https://github.com/Maryna-ua/vanilla-weather-app"
+            target="_blank"
+            >Open-source code</a
+          >
+          by Maryna Kodola
+        </small>
       </div>
-      <small>
-        <a
-          href="https://github.com/Maryna-ua/vanilla-weather-app"
-          target="_blank"
-          >Open-source code</a
-        >
-        by Maryna Kodola
-      </small>
     </div>
   </body>
 </html>
