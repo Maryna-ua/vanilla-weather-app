@@ -19,11 +19,26 @@
     <div class="container">
       <div class="wrapper">
         <div class="weather-app">
+          <form id="search-form" class="mb-3">
+            <div class="row">
+              <div class="col-9">
+                <input
+                  type="sarch"
+                  placeholder="Type a city..."
+                  class="form-control"
+                  id="city-input"
+                />
+              </div>
+              <div class="col-3">
+                <input type="submit" value="Search" class="btn btn-primary" />
+              </div>
+            </div>
+          </form>
           <div class="heading">
             <h1><span id="city"></span><span id="country"></span></h1>
             <ul class="time">
               <li id="date"></li>
-              <li id="sky">Clear</li>
+              <li id="sky"></li>
             </ul>
           </div>
           <div class="row">
