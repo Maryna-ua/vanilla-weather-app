@@ -20,6 +20,9 @@ body {
 li {
   line-height: 19px;
   list-style: none;
+}
+
+li::first-letter {
   text-transform: capitalize;
 }
 
