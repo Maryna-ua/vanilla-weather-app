@@ -40,6 +40,7 @@ h1 {
 #temp {
   font-size: 64px;
 }
+
 .time {
   margin: 0;
   padding: 0;
@@ -55,5 +56,15 @@ img {
 .units {
   position: relative;
   top: -30px;
+  color: rgb(56, 54, 54);
   font-size: 20px;
+}
+
+.units .active {
+  color: rgb(56, 54, 54);
+  cursor: default;
+}
+
+.units a {
+  text-decoration: none;
 }
